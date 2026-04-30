@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Bird Runner",
+    "slug": "bird-runner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#87CEEB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#87CEEB"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
