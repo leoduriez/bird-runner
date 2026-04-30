@@ -26,7 +26,7 @@ Un mini-jeu mobile en React Native (Expo) où un oiseau avance automatiquement e
 
 ```bash
 # Cloner le projet
-git clone <repository-url>
+git clone https://github.com/leoduriez/bird-runner.git
 cd bird-runner
 
 # Installer les dépendances
@@ -94,8 +94,9 @@ bird-runner/
 - Détection de collisions AABB (Axis-Aligned Bounding Box)
 
 ### Système de lanes
-- 3 couloirs pour les obstacles et la nourriture
+- 5 couloirs pour les obstacles et la nourriture
 - Spawn contrôlé avec variation aléatoire
+- Système anti-collision pour éviter les superpositions
 
 ### Stockage local
 - Meilleur score sauvegardé via AsyncStorage
